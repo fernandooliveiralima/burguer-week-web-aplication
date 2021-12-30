@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body-site*/
+.container-body-site{
+    max-width: 1440px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.header-body-site{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/assets/img/bg.png);
+}
+
+/*header*/
+.header-body-bg{
+    width: 1440px;
+    height: 825px;
+    
+}
+
+.logo{
+    display: flex;    
+}
+
+.logo img{
+   width: 15%;
+   height: 15%;
+   margin-top: -550px;
+   margin-left: 62px;
+}
+
+.express{
+    margin-top: -550px; 
+    margin-left: 850px;
+    font-size: 15px;
+    
+}
+
+.express{
+    margin-top: -550px; 
+    margin-left: 850px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #3d2514;
+}
+/*nav*/
+.menu{
+    margin-top: -480px;
+    margin-left: 952px;
+    
+}
+
+.menu ul{
+    display: flex;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    margin-right: 15px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-left: 1px solid black;
+    color: #3d2514;
+}
+/*main*/
+.texts{
+    margin-left: 62px;
+    
+}
+
+.texts h4{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px dashed #3d2514;
+    width: 28%;
+    text-align: center;
+    color: #3d2514;
+}
+
+.texts h1{
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3d2514;
+    text-shadow: 1px 1px #fee8bc;
+}
+
+.texts h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -10px;
+    text-transform: uppercase;
+    color: #3d2514;
+    text-shadow: 1px 1px #fee8bc;
+}
+
+.img-hamburguer div{
+    display: flex;
+}
+
+.img-hamburguer img{
+    margin-top: -380px;
+    margin-left: 330px;
+    width: 50%;
+}
+
+/*article*/
+
+.section-1{
+
+    
+    height: 419px;
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 15px;
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 2;
+    grid-template-columns: 3;
+    grid-template-areas: 
+    "item1 item2 item2"
+    "item1  item3 item3";
+    
+}
+
+
+
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+    margin-left: 15px;
+    
+}
+.item3{
+    grid-area: item3;
+    margin-top: 26px;
+    margin-left: 15px;
+    
+}
+
+.section2{
+    
+    margin: 0 auto;
+    width: 50%;
+    
+    
+}
+
+.section2 p{
+    width: 470px;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.burguer{
+    background-color: #ffc045;
+    color: #3d2514;
+    width: 219px;
+    height: 49px;
+    margin-top: 35px;
+    margin-left: 200px;
+    padding: 0px, 5px;
+}
+
+.burguer-text{
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.section2 h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+
+.span{
+    color: #3d2514;
+    margin-left: 110px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.section3{
+    display: flex;
+}
+
+.burguer01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.burguer01 img{
+    width: 82%;
+}
+
+.burguer01 h1{
+    color: #3d2514;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.burguer01 p{
+    color: #3d2514;
+    margin-top: 10px;
+    
+}
+
+.burguer-span{
+    color: #3d2514;
+    margin-top: 5px;
+}
+
+.burguer01 button{
+    background-color: #bf2222;
+    width: 110px;
+    height: 28px;
+    border: 0;
+}
+
+.burguer01 button a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*burguer02------------------------------------*/
+
+.burguer02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.burguer02 img{
+    width: 74%;
+}
+
+.burguer02 h1{
+    color: #3d2514;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.burguer02 p{
+    color: #3d2514;
+    margin-top: 10px;
+    
+}
+
+.burguer-span{
+    color: #3d2514;
+    margin-top: 5px;
+}
+
+.burguer02 button{
+    background-color: #bf2222;
+    width: 110px;
+    height: 28px;
+    border: 0;
+}
+
+.burguer02 button a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*burguer03------------------------------------*/
+
+.burguer03{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.burguer03 img{
+    width: 80%;
+}
+
+.burguer03 h1{
+    color: #3d2514;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.burguer03 p{
+    color: #3d2514;
+    margin-top: 10px;
+    
+}
+
+.burguer-span{
+    color: #3d2514;
+    margin-top: 5px;
+}
+
+.burguer03 button{
+    background-color: #bf2222;
+    width: 110px;
+    height: 28px;
+    border: 0;
+}
+
+.burguer03 button a{
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*section4--------------------------------*/
+
+.section4{
+    background-color: #fff;
+    width: 1150px;
+    height: 492px;
+    margin-top: 130px;
+    margin-left: 60px;
+    box-shadow: 2px 2px 9px #d3d0d0;
+    display: flex;
+    
+}
+
+/*btns-slide---------------------------------*/
+
+.btns-slide ul{
+    margin-left: 55px;
+}
+
+.btns-slide ul li {
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 219px;
+}
+
+.btns-slide ul li:hover{
+    background-color: #ffc045;
+    transition: all ease 0.2s;
+}
+
+.btns-slide ul li:nth-child(1){
+    background-color: #ffc045;
+}
+
+.section4-img img{
+    margin-left: 45px;
+    margin-top: 25px;
+    width: 90%;
+}
+
+.texts-btns h1{
+    color: #3d3d3d;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.texts-btns h3{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+.texts-btns p{
+    color: #3d3d3d;
+    margin-left: 5px;
+    margin-top: 55px;
+}
+
+/*section5---------------------------*/
+
+.burguer-left01 img{
+    width: 25%;
+}
+
+.molho-de-pimenta img{
+    margin-left: 40px;
+    width: 18%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -690px;
+}
+
+.inputs h1, h2{
+    color: #3d2514;
+    text-transform: uppercase;
+}
+
+.inputs h1{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.inputs h2{
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+    word-spacing: 5px;
+}
+
+/*inputs-info*/
+
+.input-name input{
+    position: relative;
+    left: 400px;
+    top: 19px;
+}
+
+.input-email{
+    position: relative;
+    left: 700px;
+    top: -14px;
+}
+
+.input-date input{
+    position: relative;
+    left: 400px;
+    top: 19px;
+    width: 180px;
+}
+
+.input-time input{
+    position: relative;
+    left: 700px;
+    top: -14px;
+}
+
+.input-people input{
+    position: relative;
+    left: 400px;
+    top: 25px;
+}
+
+.btn-find-a-table{
+    
+    position: relative;
+    left: 700px;
+    
+}
+
+.btn-find-a-table button{
+    background-color: #bf2222;
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+    width: 185px;
+}
+
+.btn-find-a-table button a{
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.inputs-info-name input, button{
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.burguer-prato img{
+    margin-left: 945px;
+    margin-top: 50px;
+    width: 26%;
+
+}
+
+/*section6*/
+
+.logo-design img{
+    position:absolute;
+    left: 10px;
+    top: 3400px;
+    width: 25%;
+ }
+
+
+
+ .section6 p{
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 3500px;
+}
+
+.rights{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 3825px;
+}
+
+.first-icons{
+    display: flex;
+    flex-direction:column;
+    color: white;
+    position: absolute;
+    left: 750px;
+    top: 3600px;
+
+}
+
+.first-icons i{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.first-icons i span{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 8px;
+}
+
+.second-icons{
+    color: white;
+    position: absolute;
+    left: 750px;
+    top: 3830px;
+    
+}
+
+.second-icons i{
+    font-size: 27px;
+    margin-left: 10px;
+    
+}
+
+/*whatsapp*/
+
+.second-icons i:nth-child(3){
+    
+    color: #52CF5C;
+}
+
+.second-icons i:nth-child(3):hover{
+    
+    color: #45a74d;
+    transition: all ease 0.1s;
+    
+}
+
+/*facebook*/
+
+.second-icons i:nth-child(2){
+    
+    color: #299de0;
+}
+
+.second-icons i:nth-child(2):hover{
+    
+    color: #35579b;
+    transition: all ease 0.1s;
+    
+}
+
+/*instagram*/
+
+.second-icons i:nth-child(1){
+    
+    color: white;
+    
+}
+
+.second-icons i:nth-child(1):hover{
+    
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+  transition: all ease 0.4s;
+    
+}
